@@ -12,51 +12,40 @@
 </head>
 <body>
 
-    <header>
-
-      <img src="novo logo pizza.jpg.jpg" alt="Logotipo" class="logo">
-
-        <h1>Reservas</h1>
-
-        <nav class="menu">
-        <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-        </ul>
-      </nav>
-    </header>
-    
-</body>
-
 <div class="box">
-  <form action="#">
+  <form action="">
     <fieldset>
-      <legend>Faça a sua reserva</legend>
+      <legend><b> Faça a sua reserva</b></legend>
 
       <br>
       <div class="inoutBox">
         <input type="text" name="nome" id="nome" class="inputuser" required>
         <label for="Nome completo">Nome completo</label>
       </div>
-
+     <br>
       <div class="inoutBox">
         <input type="text" name="email" id="email" class="inputuser" required>
         <label for="Email">Email</label>
       </div>
-
+      <br>
       <div class="inoutBox">
         <input type="text" name="Telefone" id="Telefone" class="inputuser" required>
         <label for="Telefone">Telefone</label>
       </div>
-
+      <br><br>
+      <div class="inoutBox">
+        <p>Data de Nascimento</p>
+        <label for="Data_nascimento"></label>
+        <input type="date" name="Data_nascimento" id="Data" class="inputuser" required>
+      </div>
+      
+      <input type="submit" name="submit" class="submit">
+    </body>
     </fieldset>
   </form>
 </div>
 
 
-<footer> 
-  <p>Site desenvolvido apenas no intuito de estudos e meramente ilustrativo</p>
-</footer>
+
 
 </html>
