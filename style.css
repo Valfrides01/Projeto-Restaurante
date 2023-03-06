@@ -35,9 +35,9 @@ h1{
 }
 
 h2{
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     height: 50px;
     color: #ffffff
 }
@@ -73,10 +73,17 @@ h3{
 }
   
 .menu a{
-    padding: 95px;
+    padding: 50px;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
+}
+
+p{
+   font-size: 21px;
+   color: #32fc00;
+   text-align: center; 
+   box-shadow: black;
 }
 
