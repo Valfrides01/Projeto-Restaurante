@@ -4,6 +4,7 @@ body{
     background-image: url(fundo\ de\ pizza.jpg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 header{
@@ -19,8 +20,7 @@ h1{
     text-align: center;
     margin:10px;
     padding: 45px;
-    color: #ffffff;
-        
+    color: #ffffff;  
 }
 
 .logo{
@@ -44,10 +44,9 @@ h2{
 
 h3{
     color:#ffffff;
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
-    height: 100px;
-    
+    height: 100px;    
 }
 
 .menu{

@@ -63,3 +63,11 @@ h1{
     font-weight: bold;
     font-size: 40px;
 }
+
+p{
+    font-size: 21px;
+    color: #32fc00;
+    text-align: center; 
+    box-shadow: black;
+ }
+ 
